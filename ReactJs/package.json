@@ -1,27 +1,23 @@
 {
-  "name": "wittelbot",
-  "version": "0.1.0",
+  "name": "react",
+  "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "axios": "^0.20.0",
+    "dialogflow": "4.0.3",
+    "events": "3.2.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "uuid": "8.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "devDependencies": {
+    "react-scripts": "latest"
   },
   "browserslist": {
     "production": [
